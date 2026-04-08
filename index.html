@@ -1,59 +1,98 @@
 <!DOCTYPE html>
-<html lang="fr" class="scroll-smooth">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coin Carrière - Ingénierie Immobilière B2B</title>
+    <title>Recrutement Élite | Agence Immobilière & Coin Carrière</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .serif { font-family: 'Playfair Display', serif; }
+        .bg-luxury { background-color: #0f172a; } /* Bleu Nuit */
+        .text-gold { color: #c5a059; } /* Or */
+        .border-gold { border-color: #c5a059; }
+        .bg-gold { background-color: #c5a059; }
+    </style>
 </head>
-<body class="font-sans antialiased bg-gray-50 text-gray-800">
+<body class="bg-gray-50 text-slate-900">
 
-    <section class="relative bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-950 text-white overflow-hidden">
-        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+    <nav class="p-6 flex justify-between items-center bg-white shadow-sm">
+        <div class="text-2xl font-bold tracking-tighter serif">VOTRE <span class="text-gold">AGENCE</span></div>
+        <img src="https://via.placeholder.com/150x40?text=Coin+Carrière" alt="Logo Coin Carrière" class="h-8">
+    </nav>
 
-        <div class="container mx-auto px-6 py-20 md:py-32 relative z-10">
-            <div class="max-w-4xl mx-auto text-center">
-                
-                <span class="inline-block bg-emerald-700/50 border border-emerald-500 text-emerald-100 px-4 py-1.5 rounded-full text-sm font-semibold uppercase tracking-wider mb-6">
-                    Ingénierie Immobilière B2B
-                </span>
-                
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-                    Donnez une dimension stratégique à <br>
-                    <span class="text-yellow-400">votre patrimoine professionnel.</span>
+    <header class="relative bg-luxury py-24 px-6 overflow-hidden">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center relative z-10">
+            <div class="md:w-1/2 text-white">
+                <span class="text-gold font-semibold tracking-widest uppercase text-sm">Opportunité Exclusive</span>
+                <h1 class="text-5xl md:text-6xl serif mt-4 mb-6 leading-tight">
+                    Vous n'êtes pas juste un agent. <br>
+                    <span class="text-gold">Vous êtes notre perle rare.</span>
                 </h1>
-                
-                <p class="text-lg md:text-xl text-emerald-50/90 font-light max-w-3xl mx-auto mb-10 leading-relaxed">
-                    Coin Carrière identifie pour vous les meilleures opportunités foncières et gère l'ensemble de vos transactions immobilières d'entreprise avec une rigueur absolue.
+                <p class="text-gray-300 text-lg mb-8 max-w-md">
+                    En partenariat avec Coin Carrière, nous dénichons les talents qui redéfinissent l'immobilier de prestige au Maroc.
                 </p>
-
-                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center mb-16">
-                    <a href="#" class="bg-yellow-500 text-emerald-900 px-8 py-4 rounded-xl hover:bg-yellow-400 transition font-bold shadow-lg shadow-yellow-500/20 text-center">
-                        Découvrir nos opportunités
-                    </a>
-                    <a href="#" class="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-xl hover:bg-white/10 transition font-bold text-center">
-                        Prendre contact avec un consultant
-                    </a>
+                <a href="#apply" class="bg-gold text-white px-8 py-4 rounded-sm font-bold hover:bg-yellow-700 transition duration-300 inline-block shadow-xl">
+                    POSTULER MAINTENANT
+                </a>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 relative">
+                <div class="border-8 border-gold/20 p-2">
+                    <img src="https://via.placeholder.com/600x800" alt="Perle Rare" class="shadow-2xl grayscale hover:grayscale-0 transition duration-700">
                 </div>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-slate-800/20 skew-x-12 transform translate-x-20"></div>
+    </header>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-emerald-700/50 pt-10">
-                    <div class="flex flex-col items-center">
-                        <span class="text-4xl font-bold text-yellow-400">+10 ans</span>
-                        <span class="text-emerald-100/70 text-sm mt-1">d'expertise</span>
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <span class="text-4xl font-bold text-yellow-400">+200</span>
-                        <span class="text-emerald-100/70 text-sm mt-1">entreprises gérées</span>
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <span class="text-4xl font-bold text-yellow-400">100% Privé</span>
-                        <span class="text-emerald-100/70 text-sm mt-1">Réseau exclusif</span>
-                    </div>
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl serif mb-16 underline decoration-gold underline-offset-8">Pourquoi nous rejoindre ?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="p-8 border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="text-gold text-4xl mb-4">💎</div>
+                    <h3 class="font-bold mb-2">Accès Off-Market</h3>
+                    <p class="text-sm text-gray-500">Un portefeuille exclusif à Casablanca, Rabat et Marrakech introuvable ailleurs.</p>
+                </div>
+                <div class="p-8 border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="text-gold text-4xl mb-4">🚀</div>
+                    <h3 class="font-bold mb-2">Technologie VR</h3>
+                    <p class="text-sm text-gray-500">Les meilleurs outils digitaux pour des visites immersives et des ventes accélérées.</p>
+                </div>
+                <div class="p-8 border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="text-gold text-4xl mb-4">🤝</div>
+                    <h3 class="font-bold mb-2">Partenariat Coin Carrière</h3>
+                    <p class="text-sm text-gray-500">Un accompagnement carrière unique pour propulser votre personal branding.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="apply" class="py-20 bg-gray-100 px-6">
+        <div class="max-w-4xl mx-auto bg-luxury text-white p-12 rounded-sm shadow-2xl relative overflow-hidden">
+            <div class="relative z-10 text-center">
+                <h2 class="text-3xl serif mb-4">Prêt à changer de dimension ?</h2>
+                <p class="text-gray-400 mb-8 italic">Seulement 3 places disponibles pour ce trimestre.</p>
+                
+                <div class="flex flex-col md:flex-row gap-4 justify-center">
+                    <button class="bg-gold hover:bg-yellow-600 text-white px-10 py-4 font-bold transition">
+                        DÉPOSER MON CV VIA COIN CARRIÈRE
+                    </button>
+                    <button class="border border-white/30 hover:bg-white/10 text-white px-10 py-4 font-bold transition">
+                        CONTACTER UN RECRUTEUR
+                    </button>
+                </div>
+            </div>
+            <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-gold opacity-10 rounded-full"></div>
+        </div>
+    </section>
 
-                    
+    <footer class="py-12 border-t border-gray-200 text-center text-gray-400 text-sm">
+        <p>&copy; 2026 Votre Agence Immobilière x Coin Carrière. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
+              
+                        
